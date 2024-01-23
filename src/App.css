@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +23,40 @@
 .App-link {
   color: #61dafb;
 }
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px rgb(141, 236, 248) solid;
+  height: 80vh;
+  width: 90%;
+  margin: 10px;
+}
+.bg-container {
+  text-align: center;
+}
+.button-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+}
 
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+.red {
+  color: red;
+}
+.underline {
+  border-bottom: '5px';
+  border-color:#282c34;
+  border-style: solid;
+  text-decoration: underline;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
